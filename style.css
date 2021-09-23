@@ -1,32 +1,57 @@
+body {
+  background-color: #ffffff;
+}
 h1 {
   text-align: center;
+  font-family: "Spartan", sans-serif;
+  font-weight: 800 bold;
+  margin: 30px 20px;
 }
-#box-wrapper {
+.box-wrapper {
   display: flex;
   flex-direction: row;
   height: 60vh;
   justify-content: center;
   padding: 10px;
   justify-content: space-around;
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+}
+.Cassidy {
+  border: 5px solid #ffc107;
+  background-color: #3f51b5;
+  width: 20vw;
+  padding: 15px;
+}
+
+.Sticky-Joe {
+  border: 5px solid #ffc107;
+  background-color: #3f51b5;
+  width: 20vw;
+  padding: 15px;
+}
+.Mike-Whalen {
+  border: 5px solid #ffc107;
+  background-color: #3f51b5;
+  width: 20vw;
+  padding: 15px;
+}
+.box-header {
+  text-align: center;
+  color: #bdbdbd;
+}
+.box-content {
+  text-align: center;
 }
 .button {
-  background-color: rgb(172, 172, 236);
+  background-color: #ffc107;
+  padding: 5px 20px;
 }
 .button-text {
-  color: cornsilk;
+  font-family: "Spartan", sans-serif;
+  color: #212121;
 }
-#Cassidy {
-  border: 5px solid red;
-  background-color: rgb(175, 175, 219);
-  width: 25vw;
-}
-#Sticky-Joe {
-  border: 5px solid red;
-  background-color: royalblue;
-  width: 25vw;
-}
-#Mike-Whalen {
-  border: 5px solid red;
-  background-color: rgb(65, 225, 137);
-  width: 25vw;
+img {
+  height: 15vh;
+  justify-content: space-around;
 }
