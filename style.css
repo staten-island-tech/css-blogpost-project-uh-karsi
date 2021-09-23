@@ -4,12 +4,18 @@ body {
 h1 {
   font-weight: 800 bold;
 }
-
+.banner-content {
+  font-weight: 900 lighter;
+}
 .banner {
   font-family: "Spartan", sans sans-serif;
-  margin: 90px 20px;
   text-align: center;
-  background-image: cat-banner.jpg;
+  background-image: url(rilakkuma-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+  padding: 70px 20px;
+  color: #ffffff;
 }
 .box-wrapper {
   display: flex;
@@ -21,27 +27,27 @@ h1 {
   font-weight: 400;
 }
 .Cassidy {
-  background-color: #3f51b5;
+  background-color: #ebddce;
   width: 20vw;
   padding: 15px;
   border-radius: 25px;
 }
 
 .Sticky-Joe {
-  background-color: #3f51b5;
+  background-color: #ebddce;
   width: 20vw;
   padding: 15px;
   border-radius: 25px;
 }
 .Mike-Whalen {
-  background-color: hsl(231, 48%, 48%);
+  background-color: #ebddce;
   width: 20vw;
   padding: 15px;
   border-radius: 25px;
 }
 .box-header {
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: #412f1b;
 }
 .box-content {
   text-align: center;
