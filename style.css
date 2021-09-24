@@ -1,15 +1,10 @@
 body {
   background-color: #ffffff;
-}
-#header-bar {
-  padding: 4vh;
-  background-color: #41372e;
-  position: sticky;
-  top: 0;
+  height: fit-content;
 }
 h1 {
   font-weight: 800 bold;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 .banner {
   background-image: url(rilakkuma-banner.png);
@@ -25,7 +20,7 @@ h1 {
 }
 #banner-text {
   font-weight: 900 lighter;
-  font-size: 1.62vw;
+  font-size: 1.5vw;
 }
 .box-wrapper {
   display: flex;
@@ -35,35 +30,24 @@ h1 {
   justify-content: space-around;
   font-family: "Spartan", sans-serif;
   font-weight: 400;
+  margin-bottom: 100px;
 }
-.Cassidy {
+.post {
   background-color: #ebddce;
   width: 20vw;
-  height: 60vh;
+  height: fit-content;
   padding: 15px;
+  padding-bottom: 30px;
   border-radius: 25px;
+  text-align: center;
 }
 
-.Sticky-Joe {
-  background-color: #ebddce;
-  width: 20vw;
-  height: 60vh;
-  padding: 15px;
-  border-radius: 25px;
-}
-.Mike-Whalen {
-  background-color: #ebddce;
-  width: 20vw;
-  height: 60vh;
-  padding: 15px;
-  border-radius: 25px;
-}
 .box-header {
-  text-align: center;
   color: #412f1b;
+  font-size: 1.5vw;
 }
 .box-content {
-  text-align: center;
+  font-size: 1vw;
 }
 .button {
   background-color: #ffc107;
@@ -74,9 +58,10 @@ h1 {
 .button-text {
   font-family: "Spartan", sans-serif;
   color: black;
+  font-size: 0.8vw;
 }
 img {
-  height: 15vh;
+  width: 13vw;
   position: relative;
 }
 #bottom {
