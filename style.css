@@ -3,16 +3,30 @@ body {
 }
 h1 {
   font-weight: 800 bold;
+  font-size: 3vw;
 }
-.banner-content {
-  font-weight: 900 lighter;
+#filler {
+  margin-bottom: 30px;
+  padding: 70px, 20px;
 }
 .banner {
-  font-family: "Spartan", sans sans-serif;
-  text-align: center;
   background-image: url(rilakkuma-banner.png);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 160px 600;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  position: absolute;
+  z-index: -1;
+}
+#banner-desc {
+  font-weight: 900 lighter;
+  font-size: 1.62vw;
+}
+.banner-content {
+  font-family: "Spartan", sans sans-serif;
+  text-align: center;
   margin-bottom: 30px;
   padding: 70px 20px;
   color: #ffffff;
@@ -29,6 +43,7 @@ h1 {
 .Cassidy {
   background-color: #ebddce;
   width: 20vw;
+  height: 60vh;
   padding: 15px;
   border-radius: 25px;
 }
@@ -36,12 +51,14 @@ h1 {
 .Sticky-Joe {
   background-color: #ebddce;
   width: 20vw;
+  height: 60vh;
   padding: 15px;
   border-radius: 25px;
 }
 .Mike-Whalen {
   background-color: #ebddce;
   width: 20vw;
+  height: 60vh;
   padding: 15px;
   border-radius: 25px;
 }
@@ -65,4 +82,7 @@ h1 {
 img {
   height: 15vh;
   position: relative;
+}
+#bottom {
+  margin: 60px;
 }
