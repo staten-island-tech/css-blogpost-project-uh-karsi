@@ -61,6 +61,7 @@ body {
 img {
   width: 13vw;
   position: relative;
+  margin-bottom: 3vh;
 }
 #sj-img {
   width: 13.65vw;
